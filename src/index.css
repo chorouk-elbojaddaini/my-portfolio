@@ -1,13 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;1,100;1,400&display=swap');
+*{
+  font-family: 'Poppins',sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+ 
+}
+:root{
+  --pink-color:#ff417e;
+  --second-pink:#ff86ad;
+  --text-color :#ff417e;
+
+}
+/*==============Navbar ==================*/
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  color: var(--text-color);
+  margin-top: 30px;
+}
+.logo{
+  width: 250px;
+  text-align: center;
+  
+}
+.logo:before{
+  content:'';
+  position: absolute;
+  width: 240px;
+  height: 200px;
+  z-index: -1;
+  top:-50px;
+  left:-50px;
+  background-color: rgba(255,65,126,0.8);
+  border-radius: 50%;
+}
+.circle{
+  content:'';
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  z-index: -10;
+  top:-50px;
+  left:100px;
+  background: rgba(255,134,173,0.5);
+  border-radius: 50%;
+}
+.logoimg{
+  position: absolute;
+  top: 0;
+  left: -15px;
+  margin-top: -7px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-list{
+  display: flex;
+  gap: 40px;
+  color:#ff417e;
+  font-weight: 600;
+  cursor: pointer;
+
+  
 }
+.contact{
+  background: var(--pink-color);
+  padding: 8px;
+  margin-top: -9px;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.humburger{
+    visibility: hidden;
+}
+
+
+
+
+
