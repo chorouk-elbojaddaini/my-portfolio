@@ -1,5 +1,4 @@
 import React from 'react'
-import {FcAbout} from 'react-icons/fc';
 import avatar from '../assets/avatar.png';
 function About() {
     
