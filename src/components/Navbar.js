@@ -10,10 +10,10 @@ function Navbar() {
             </div>
             <div style={{color:"#fff"}}>
                 <ul className='nav-list'>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>SKILLS</li>
-                    <li>WORK</li>
+                    <li className='hover'>HOME</li>
+                    <li className='hover'>ABOUT</li>
+                    <li className='hover'>SKILLS</li>
+                    <li className='hover'>WORK</li>
                     <li className='contact'>CONTACT ME</li>
                 </ul>
             </div>
