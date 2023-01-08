@@ -1,8 +1,9 @@
-
+import '../styles/work.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import projet from '../assets/projet.jpeg';
-import projet3 from '../assets/projet3.jpeg';
+import projet from '../assets/projet.png';
+import projet2 from '../assets/projet2.png';
+import projet3 from '../assets/projet3.jpg';
 function Work() {
     const responsive = {
         superLargeDesktop: {
@@ -28,7 +29,7 @@ function Work() {
             <span className='work-title'>Work</span>
             <Carousel responsive={responsive}>
                 <div className='card one'>
-                    <img src={projet} alt="projectImg" className='project-one' />
+                    <img src={projet2} alt="projectImg" className='project-one' />
                     <div className='project-details'>
                         <span>Project Shifae</span>
                         <div className="details">Projet de reservation des rendez vous , avec un espace medecin et un espace patient dans lequel il peut avoir son dossier medical
@@ -46,7 +47,7 @@ function Work() {
                     </div>
                 </div>
                 <div className='card one'>
-                    <img src={projet} alt="projectImg" className='project-one' />
+                    <img src={projet3} alt="projectImg" className='project-one' />
                     <div className='project-details'>
                         <span>Project Shifae</span>
                         <div className="details">Projet de reservation des rendez vous , avec un espace medecin et un espace patient dans lequel il peut avoir son dossier medical

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../styles/about.css';
 import avatar from '../assets/avatar.png';
 function About() {
     

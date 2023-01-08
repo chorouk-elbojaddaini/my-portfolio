@@ -16,12 +16,12 @@ function Contact() {
 
                     <p className='getIn'>Get in touch</p>
                     <span>Send me a message if you have any project in your mind</span>
-                    <div><FaPhoneAlt  className='phone-number'/> <span>+212650227401</span></div>
-                    <div><MdOutlineMailOutline className='email'/> <span>+212650227401</span></div>
+                    <div><FaPhoneAlt  className='phone-number'/> <span className='number-email'>+212650227401</span></div>
+                    <div><MdOutlineMailOutline className='email'/> <span className='number-email'>choroukelbojaddaini001@gmail.com</span></div>
                     <div className='social-media'>
-                        <a href=''><img src={linkedin} alt="" className='media-img'/></a>
-                        <a href=''><img src={facebook} alt="" className='media-img'/></a>
-                        <a href=''><img src={insta} alt="" className='media-img'/></a>
+                        <a href='https://www.linkedin.com/in/chorouk-el-bojaddaini-b05031227/'><img src={linkedin} alt="" className='media-img'/></a>
+                        <a href='https://web.facebook.com/chorouk.elbojaddaini'><img src={facebook} alt="" className='media-img'/></a>
+                        <a href='https://www.instagram.com/choroukelb/'><img src={insta} alt="" className='media-img'/></a>
                     </div>
                 </div>
                  <div className='form'>

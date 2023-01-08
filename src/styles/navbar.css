@@ -1,0 +1,94 @@
+
+/*==============Navbar ==================*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    color: var(--text-color);
+    margin-top: 30px;
+  }
+  
+  .logo {
+    width: 250px;
+    text-align: center;
+  
+  }
+  
+  .logo:before {
+    content: '';
+    position: absolute;
+    width: 240px;
+    height: 200px;
+    z-index: -1;
+    top: -50px;
+    left: -50px;
+    background-color: rgba(255, 65, 126, 0.8);
+    border-radius: 50%;
+  }
+  
+  .circle {
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    z-index: -10;
+    top: -50px;
+    left: 100px;
+    background: rgba(255, 134, 173, 0.5);
+    border-radius: 50%;
+  }
+  
+  .logoimg {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    margin-top: -7px;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 50px;
+    color: #ff417e;
+    font-weight: 600;
+    cursor: pointer;
+  
+  
+  }
+  
+  li {
+    position: relative;
+  }
+  
+  li:after {
+    content: '';
+    position: absolute;
+    background-color: var(--pink-color);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 4px;
+  
+  }
+  
+  .hover:hover::after {
+    width: 100%;
+    transition: all 0.2s ease;
+  }
+  
+  .contact {
+    background: var(--pink-color);
+    padding: 8px;
+    margin-top: -9px;
+    color: #fff;
+    border-radius: 15px;
+  }
+  
+  .contact:hover {
+    background: var(--second-pink);
+    transform: scale(1.1);
+  }
+  
+  .humburger {
+    visibility: hidden;
+  }

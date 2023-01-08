@@ -1,0 +1,359 @@
+
+/*===================Skills SECTION==================*/
+.container{
+    height: 80vh;
+    width: 100%;
+  }
+  .skills-title {
+    position: relative;
+    font-size: 35px;
+    color: var(--pink-color);
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .skills-title:after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 70px;
+    left: 630px;
+    background: var(--pink-color);
+    bottom: 5px;
+  }
+  .skills-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+  
+  }
+  
+  .box {
+    width: 21%;
+    height: auto;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    padding: 10px;
+    color: #ff417e;
+  
+  
+  }
+  .title-box{
+    margin-bottom: 20px;
+    background: rgba(255, 11, 88, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .web-dev,
+  .programmation,
+  .frameworks,
+  .databases {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .html-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .span-html {
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 17px;
+  }
+  
+  .html-img {
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    background: #fff;
+    padding: 5px;
+    box-shadow: 4px 4px 4px #888;
+  }
+  
+  .progress-bar {
+    margin-top: 5px;
+    width: 100%;
+    height: 11px;
+    background: #959595;
+    border-radius: 5px;
+  }
+  
+  .progress-bar div {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 86%;
+  
+  }
+  
+  .progress-bar div span {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255);
+    float: right;
+    padding: 1px;
+    font-size: 12px;
+    margin-top: -15px;
+    margin-right: -12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .html-progress {
+    background: #E34C26;
+  
+  }
+  
+  .html-progress span {
+    border: 2px solid #E34C26;
+  }
+  
+  .css-progress {
+    background: #66D3FA;
+  
+  }
+  
+  .css-progress span {
+    border: 2px solid #66D3FA;
+  }
+  
+  .javascript-progress {
+    background: #f7df1e;
+  
+  }
+  
+  .javascript-progress span {
+    border: 2px solid #f7df1e;
+  }
+  
+  .typescript-progress {
+    background: #358EF1;
+  
+  }
+  
+  .typescript-progress span {
+    border: 2px solid #358EF1;
+  }
+  
+  .php-progress {
+    background: #474A8A;
+  
+  }
+  
+  .php-progress span {
+    border: 2px solid #474A8A;
+  }
+  
+  .pourc-html,
+  .span-html {
+    color: #E34C26;
+  }
+  
+  .pourc-css,
+  .span-css {
+    color: #66D3FA;
+  }
+  
+  .pourc-javascript,
+  .span-javascript {
+    color: #f7df1e;
+  }
+  
+  .pourc-typescript,
+  .span-typescript {
+    color: #358EF1;
+  }
+  
+  .pourc-php,
+  .span-php {
+    color: #474A8A;
+  }
+  
+  /*Programming languages*/
+  .python-progress {
+    background: #FFE873;
+  
+  }
+  
+  .python-progress span {
+    border: 2px solid #FFE873;
+  }
+  
+  .pourc-python,
+  .span-python {
+    color: #FFE873;
+  }
+  
+  
+  .java-progress {
+    background: #ED1D25;
+  
+  }
+  
+  .java-progress span {
+    border: 2px solid #ED1D25;
+  }
+  
+  .pourc-java,
+  .span-java {
+    color: #ED1D25;
+  }
+  
+  
+  .c-progress {
+    background: #00549D;
+  
+  }
+  
+  .c-progress span {
+    border: 2px solid #00549D;
+  }
+  
+  .pourc-c,
+  .span-c {
+    color: #00549D;
+  }
+  
+  
+  
+  .angular-progress {
+    background: #c3002f;
+  
+  }
+  
+  .angular-progress span {
+    border: 2px solid #c3002f;
+  }
+  
+  .pourc-angular,
+  .span-angular {
+    color: #c3002f;
+  }
+  
+  .react-progress {
+    background: #61DBFB;
+  
+  }
+  
+  .react-progress span {
+    border: 2px solid #61DBFB;
+  }
+  
+  .pourc-react,
+  .span-react {
+    color: #61DBFB;
+  }
+  
+  .tailwind-progress {
+    background: #06b6d4;
+  
+  }
+  
+  .tailwind-progress span {
+    border: 2px solid #06b6d4;
+  }
+  
+  .pourc-tailwind,
+  .span-tailwind {
+    color: #06b6d4;
+  }
+  
+  
+  
+  
+  
+  .mysql-progress {
+    background: #F29111;
+  
+  }
+  
+  .mysql-progress span {
+    border: 2px solid #F29111;
+  }
+  
+  .pourc-mysql,
+  .span-mysql {
+    color: #F29111;
+  }
+  
+  .oracle-progress {
+    background: #F80102;
+  
+  }
+  
+  .oracle-progress span {
+    border: 2px solid #F80102;
+  }
+  
+  .pourc-oracle,
+  .span-oracle {
+    color: #F80102;
+  }
+  
+  .github-progress {
+    background: #0D1117;
+  
+  }
+  
+  .github-progress span {
+    border: 2px solid #0D1117;
+  }
+  
+  .pourc-github,
+  .span-github {
+    color: #0D1117;
+  }
+  
+  
+  
+  .git-progress {
+    background: #f34f29;
+  
+  }
+  
+  .git-progress span {
+    border: 2px solid #f34f29;
+  }
+  
+  .pourc-git,
+  .span-git {
+    color: #f34f29;
+  }
+  
+  /*responsivite skills section*/
+  @media screen and (max-width:1200px) {
+    .box {
+      width: 40%;
+      margin: 10px;
+    }
+  
+  }
+  
+  @media screen and (max-width:600px) {
+    .box {
+      width: 40%;
+  
+    }
+  }
+  
+  
+  

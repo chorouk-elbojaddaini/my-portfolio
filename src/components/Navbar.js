@@ -1,5 +1,6 @@
 import React from 'react';
 import {useState} from 'react';
+import '../styles/navbar.css';
 import {Link} from 'react-scroll';
 import {FaBars} from 'react-icons/fa';
 import logo from '../assets/logo.png';

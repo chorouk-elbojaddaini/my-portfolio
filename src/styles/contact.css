@@ -70,6 +70,7 @@
     color: #fff;
     position: relative;
     border-radius: 15px;
+    width: 55%;
 }
 .getIn{
     font-size: 25px;
@@ -81,7 +82,9 @@
     font-size: 20px;
     margin-top: 10px;
 }
-
+.number-email{
+    font-size: 15px;
+}
 .social-media{
     display: flex;
     flex-direction: row;

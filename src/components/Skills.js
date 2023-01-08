@@ -11,6 +11,7 @@ import react from '../assets/react.png';
 import angular from '../assets/angular.png';
 import tailwind from '../assets/tailwind.jpg';
 import git from '../assets/git.png';
+import '../styles/skills.css';
 import github from '../assets/github.png';
 import mysql from '../assets/mysql.jpg';
 import oracle from '../assets/oracle.png';

@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import '../styles/home.css';
+
 import {MdWavingHand} from 'react-icons/md';
 import { FaHandPointRight } from 'react-icons/fa';
 import code from '../assets/programming.png';

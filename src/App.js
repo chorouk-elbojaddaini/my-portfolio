@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Work from './components/work';
 
 function App() {
+  document.title = "Portfolio";
   return (
     <div className='content' id='home'>
         <Navbar/>
