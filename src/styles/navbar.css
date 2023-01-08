@@ -59,7 +59,7 @@ header {
   li {
     position: relative;
   }
-  
+ 
   li:after {
     content: '';
     position: absolute;

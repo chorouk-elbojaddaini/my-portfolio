@@ -31,10 +31,11 @@ function Work() {
                 <div className='card one'>
                     <img src={projet2} alt="projectImg" className='project-one' />
                     <div className='project-details'>
-                        <span>Project Shifae</span>
-                        <div className="details">Projet de reservation des rendez vous , avec un espace medecin et un espace patient dans lequel il peut avoir son dossier medical
+                        <span>Project Chifae</span>
+                        <div className="details">
+                            Projet de reservation des rendez vous 
                         </div>
-                        <a href="#"><button className='btn-code'>Code</button></a>
+                        <a href="https://github.com/chorouk-elbojaddaini/Project-shifae"><button className='btn-code'>Code</button></a>
                     </div>
                 </div>
                 <div className='card one'>
@@ -49,10 +50,11 @@ function Work() {
                 <div className='card one'>
                     <img src={projet3} alt="projectImg" className='project-one' />
                     <div className='project-details'>
-                        <span>Project Shifae</span>
-                        <div className="details">Projet de reservation des rendez vous , avec un espace medecin et un espace patient dans lequel il peut avoir son dossier medical
+                        <span>Project ReachMe</span>
+                        <div className="details">
+                        L’application s’agit d’une plateforme qui facilite la recherche d’emploi pour les utilisateurs en leurs fournissant des listes des entreprises qui cherchent des profils a recruter . 
                         </div>
-                        <a href="#"><button className='btn-code'>Code</button></a>
+                        <a href="https://github.com/chorouk-elbojaddaini/AndroidProject"><button className='btn-code'>Code</button></a>
                     </div>
                 </div>
             </Carousel>

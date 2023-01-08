@@ -35,10 +35,34 @@
     background: rgba(255, 134, 173, 0.5);
     border-radius: 50%;
   }
+  .circ1{
+    
+      content: '';
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      z-index: -10;
+      bottom: 0;
+      right: 280px;
+      background: rgba(255, 134, 173, 0.5);
+      border-radius: 50%;
+    
+  }
+  .circ2 {
+    content: '';
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    z-index: -10;
+    bottom:0;
+    left: 280px;
+    background-color: rgba(255, 65, 126, 0.8);
+    border-radius: 50%;
+  }
   
   .about-section {
     position: relative;
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;

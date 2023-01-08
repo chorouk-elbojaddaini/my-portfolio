@@ -26,9 +26,9 @@ function Contact() {
                 </div>
                  <div className='form'>
                  <form action="">
-                        <input type="text" placeholder='your name'/>
-                        <input type="text" placeholder='your name'/>
-                        <input type="text" placeholder='your name'/>
+                        <input type='text' placeholder='your name' className='input'/>
+                        <input type="text" placeholder='your email'/>
+                        <input type="tel" placeholder='your phone number'/>
                         <textarea placeholder='message'/>
                         <button className='send-msg'>Send</button>
                     </form>

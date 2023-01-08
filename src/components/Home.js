@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/home.css';
-
+import { Link } from 'react-scroll';
 import {MdWavingHand} from 'react-icons/md';
 import { FaHandPointRight } from 'react-icons/fa';
 import code from '../assets/programming.png';
@@ -14,7 +14,7 @@ function Home() {
             <h1>Chorouk EL BOJADDAINI</h1>
             <h3>software engineering student</h3>
             <p>I'm not a great coder, but I'm a passionate coder and I love what I do.</p>
-            <a href='#' className='work-click'><FaHandPointRight/>  Show my work</a>
+            <Link to='work' className='work-click group'><FaHandPointRight className='handPoint'/>  Show my work</Link>
             </div>
             <div className='home-image'>
                 <div className='circle2'></div>

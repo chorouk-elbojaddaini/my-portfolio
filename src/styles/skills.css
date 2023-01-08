@@ -65,7 +65,7 @@
     flex-direction: column;
   }
   
-  .html-title {
+  .skill-title {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -102,6 +102,108 @@
     width: 86%;
   
   }
+  .progress-bar .html-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 90%;
+  
+  }
+  .progress-bar .css-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 90%;
+  
+  }
+  .progress-bar .typescript-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 40%;
+  
+  }
+  .progress-bar .php-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 65%;
+  
+  }
+  .progress-bar .python-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 65%;
+  
+  }
+  .progress-bar .java-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 60%;
+  
+  }
+  .progress-bar .c-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 40%;
+  
+  }
+  .progress-bar .angular-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 60%;
+  
+  }
+  .progress-bar .react-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 45%;
+  
+  }
+  .progress-bar .tailwind-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 80%;
+  
+  }
+  .progress-bar .mysql-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 92%;
+  
+  }
+  
+  .progress-bar .oracle-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 70%;
+  
+  }
+  .progress-bar .github-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 80%;
+  
+  }
+  .progress-bar .git-progress {
+    margin-top: 5px;
+    height: 11px;
+    border-radius: 5px;
+    width: 75%;
+  
+  }
+  
+  
+  
   
   .progress-bar div span {
     height: 30px;

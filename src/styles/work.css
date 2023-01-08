@@ -32,6 +32,7 @@
     border-radius: 15px;
     box-shadow: 4px 4px 4px #888;
     margin-bottom: 5px;
+    height: 370px;
   }
   .one{
     margin-left: 8px;
@@ -49,6 +50,11 @@
     align-items: center;
     padding: 8px;
   }
+  .project-details span{
+    color: var(--pink-color);
+    font-weight: 800;
+  
+  }
   .btn-code{
     background: var(--pink-color);
     color: #fff;
@@ -59,6 +65,9 @@
     width: 100px;
     font-weight: 500;
     border-radius: 15px;
+    position: absolute;
+    bottom: 8px;
+    left: 160px;
   }
   .btn-code:hover{
     background:var(--second-pink);

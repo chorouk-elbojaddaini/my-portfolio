@@ -74,7 +74,18 @@
     background: rgba(255, 65, 126, 0.8);
     border-radius: 5px;
     padding: 25px;
+    cursor: pointer;
   }
   
+  .group:hover{
+    background: var(--pink-color);
+  }
+   .group:hover > .handPoint{
+    transform: rotate(90deg);
+  }
+  
+  
+    
+    
   
   
