@@ -16,7 +16,7 @@ import mysql from '../assets/mysql.jpg';
 import oracle from '../assets/oracle.png';
 function Skills() {
     return (
-        <div className='container'>
+        <div className='container' id='skills'>
         <span className='skills-title'> Skills</span>
         <div className='skills-section'>
             <div className='box web-dev'>

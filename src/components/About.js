@@ -3,7 +3,7 @@ import avatar from '../assets/avatar.png';
 function About() {
     
     return (
-        <div className='about-section'>
+        <div className='about-section' id='about'>
             <div className='circle3'></div>
             <div className='circle4'></div>
             <div className='circle5'></div>

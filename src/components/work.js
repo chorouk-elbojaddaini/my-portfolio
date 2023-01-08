@@ -24,8 +24,8 @@ function Work() {
         }
     };
     return (
-        <div className='work-section'>
-            <span className='skills-title'>Work</span>
+        <div className='work-section' id='work'>
+            <span className='work-title'>Work</span>
             <Carousel responsive={responsive}>
                 <div className='card one'>
                     <img src={projet} alt="projectImg" className='project-one' />
